@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/hi',(req,res)=>{
-    res.send("hi world node")
+    res.send({ppp:'hooooiioiii'})
 })
 
 app.listen(3000,()=>{
